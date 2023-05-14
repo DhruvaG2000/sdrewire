@@ -28,10 +28,10 @@ Currenlty SDReWire is still in testing and development phase.
 
 In case you wonder what exact components are used, here is the gist:
 
-- USB 3.1 Gen1 card reader Genesys Logic GL3224
-- TS3DDR4000ZBAR mux IC used for SD signals
-- FTDI FT230XQ provides GPIO for mux as well as auxiliary UART and GPIO
-- USB2422 USB 2.0 Hub to interface GL3224 and FTDI FT230XQ
+- USB 3.1 Gen1 card reader [Genesys Logic GL3224](https://www.genesyslogic.com.tw/en/product_view.php?show=53)
+- [TS3DDR4000ZBAR](https://www.ti.com/product/TS3DDR4000/part-details/TS3DDR4000ZBAR) mux IC used for SD signals
+- [FTDI FT230XQ](https://www.mouser.in/datasheet/2/163/DS_FT230X-5395.pdf) provides GPIO for mux as well as auxiliary UART and GPIO
+- [USB2422 USB 2.0 Hub](https://www.microchip.com/en-us/product/USB2422) to interface GL3224 and FTDI FT230XQ
   
 Designed with KiCad.
 
